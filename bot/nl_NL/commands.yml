@@ -4,26 +4,17 @@ slash:
       description: "Werk om geld te verdienen."
       success: "You worked and earned {{amount}} coins!"
       cooldown: "You need to wait {{time}} before working again."
-  moderation:
-    ban:
-      description: "Ban a user from the server."
-      success: "User {{user}} has been banned."
-      error: "You don't have permission to ban users."
-  utility:
-    userinfo:
-      description: "Get information about a user."
-      result: "User {{user}} has been on the server since {{date}}."
 message:
-  moderation:
-    mute:
-      description: "Mute a user in the server."
-      success: "User {{user}} has been muted for {{time}}."
-integration:
-  calendar:
-    create:
-      description: "Maak een nieuwe kalendergebeurtenis aan."
-      success: "Event '{{event}}' created for {{date}}."
+  profile:
+    profile:
+      current-level: "Your current level is {{level}}"
+      current-exp: "You currently have {{exp}} exp."
+interactions:
+  settings:
+    agreedtoterms:
+      success-title: "I'm looking forward to interacting with you."
+      success-description: "Thanks for confirming that you've read and accepted our terms and policies. You're all set!"
 error:
   500:
     name: "Fout 500"
-    description: "\"test"
+    description: "test"
