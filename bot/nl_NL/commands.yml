@@ -1,7 +1,7 @@
 slash:
   economy:
     work:
-      description: "Work to earn money."
+      description: "Werk om geld te verdienen."
       success: "You worked and earned {{amount}} coins!"
       cooldown: "You need to wait {{time}} before working again."
   moderation:
@@ -21,9 +21,9 @@ message:
 integration:
   calendar:
     create:
-      description: "Create a new calendar event."
+      description: "Maak een nieuwe kalendergebeurtenis aan."
       success: "Event '{{event}}' created for {{date}}."
 error:
   500:
-    name: "Error 500"
+    name: "Fout 500"
     description: "\"test"
