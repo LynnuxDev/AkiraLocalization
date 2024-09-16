@@ -20,4 +20,5 @@ interactions:
 error:
   500:
     name: "Error 500"
-    description: "test
+    description: "test"
+    
