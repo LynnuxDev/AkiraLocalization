@@ -7,7 +7,7 @@ slash:
 message:
   profile:
     profile:
-      current-level: "Your current level is {{level}}"
+      current-level: "Your current level is {{level}}."
       current-exp: "You currently have {{exp}} exp."
 interactions:
   settings:
