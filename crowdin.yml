@@ -1,3 +1,3 @@
 files:
   - source: /bot
-    translation: /bot/%locale_with_underscore%/%original_file_name%.pot
+    translation: /bot/%locale_with_underscore%/%original_file_name%
