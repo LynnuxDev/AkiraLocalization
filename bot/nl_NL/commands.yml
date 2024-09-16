@@ -2,18 +2,18 @@ slash:
   economy:
     work:
       description: "Werk om geld te verdienen."
-      success: "You worked and earned {{amount}} coins!"
-      cooldown: "You need to wait {{time}} before working again."
+      success: "Je hebt gewerkt en hebt {{amount}} munten verdiend!"
+      cooldown: "Je moet {{time}} wachten om opnieuw te werken."
 message:
   profile:
     profile:
-      current-level: "Your current level is {{level}}"
-      current-exp: "You currently have {{exp}} exp."
+      current-level: "Je huidige level is {{level}}"
+      current-exp: "Je hebt momenteel {{exp}} exp."
 interactions:
   settings:
     agreedtoterms:
-      success-title: "I'm looking forward to interacting with you."
-      success-description: "Thanks for confirming that you've read and accepted our terms and policies. You're all set!"
+      success-title: "Ik kijk ernaar uit om met je te communiceren."
+      success-description: "Bedankt voor het bevestigen dat je onze voorwaarden en beleid hebt gelezen en geaccepteerd. Je bent klaar!"
 error:
   500:
     name: "Fout 500"
