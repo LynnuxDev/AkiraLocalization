@@ -1,8 +1,8 @@
 slash:
   economy:
     work:
-      description: "Work to earn money."
-      success: "You worked and earned {{amount}} coins!"
+      description: "Trabaja para ganar dinero."
+      success: "¡Has trabajado y ganado monedas {{amount}}!"
       cooldown: "You need to wait {{time}} before working again."
 message:
   profile:
