@@ -1,0 +1,20 @@
+slash:
+  economy:
+    work:
+      description: "Work to earn money."
+      success: "You worked and earned {{amount}} coins!"
+      cooldown: "You need to wait {{time}} before working again."
+message:
+  profile:
+    profile:
+      current-level: "Your current level is {{level}}"
+      current-exp: "You currently have {{exp}} exp."
+interactions:
+  settings:
+    agreedtoterms:
+      success-title: "I'm looking forward to interacting with you."
+      success-description: "Thanks for confirming that you've read and accepted our terms and policies. You're all set!"
+error:
+  500:
+    name: "Error 500"
+    description: "test"
