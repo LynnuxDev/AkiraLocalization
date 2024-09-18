@@ -5,7 +5,7 @@ Welcome to the Akira's localization Repo! We use **Crowdin.com** for managing tr
 ## Important Information
 
 - **Do Not Edit These Files**: The files in the `/main` branch (like `/bot/commands.yml`) are the source files and should not be modified manually. All translation efforts should go through Crowdin.
-- **/i182-main Branch**: The `/i182-main` branch is exclusively for tracking the bot's internationalization process and **must never be touched**.
+- **/i182-main Branch**: The `/i18n-main` branch is exclusively for tracking the bot's internationalization process and **must never be touched**.
 
 ## How to Contribute
 
@@ -30,7 +30,7 @@ We use Crowdin for localization to:
 
 Please remember:
 - **Never edit files directly** in the repository for translations. All changes should be made via Crowdin.
-- **Do not touch the `/i182-main` branch** — it’s reserved for tracking and should remain untouched at all times.
+- **Do not touch the `/i18n-main` branch** — it’s reserved for tracking and should remain untouched at all times.
 
 Thank you for helping make Akira be more accessible to users around the world!
 
