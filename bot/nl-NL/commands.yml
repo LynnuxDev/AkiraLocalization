@@ -11,15 +11,15 @@ message:
       current-exp: "Je hebt momenteel {{exp}} exp."
   utility:
     donate:
-      title: "Information about Donations."
-      footer: "Donating is totally optional and is not required for most use cases."
+      title: "Informatie over donaties."
+      footer: "Doneren is volledig optioneel en is niet vereist voor de meeste toepassingen."
       field:
         one:
-          title: "How donations are being used:"
-          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+          title: "Hoe donaties worden gebruikt:"
+          description: "De donaties die mijn ontwikkelaar ontvangt {{italic}}(op alle platforms){{/italic}} gaan naar het onderhouden van mij (Akira) en mijn gerelateerde diensten. Elke extra donatie die ze maken, gaat naar een goed doel. Voor meer informatie over hoe ze donaties gebruiken, klik [hier]({{linkDonatePost}})."
         two:
-          title: "How to donate:"
-          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+          title: "Hoe te doneren:"
+          description: "Je kunt doneren door je te abonneren op de [Patreon]({{linkPatreon}}) van mijn developer of een eenmalige betaling te doen via [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *voor bitcoin-donaties, neem direct contact op met mijn developer via hun [website]({{linkLynnuxContact}}) of gebruik {{prefix}}contact*"
 interactions:
   settings:
     agreedtoterms:
