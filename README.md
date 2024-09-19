@@ -19,7 +19,7 @@ If you'd like to contribute translations to the project, follow these steps:
 
 3. **Testing and Feedback**: You can test your translations by downloading the Crowdin output and running it locally to see how the bot behaves in different languages. Make sure everything looks correct before submitting final translations.
 
-p.s. tags can be used in translations, see [tags.md](./tags.md)
+p.s. tags can be used in translations, see [tags.md](./Tags.md)
 
 ## Why Use Crowdin?
 
