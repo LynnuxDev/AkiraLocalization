@@ -1,0 +1,31 @@
+slash:
+  economy:
+    work:
+      description: "Work to earn money."
+      success: "You worked and earned {{amount}} coins!"
+      cooldown: "You need to wait {{time}} before working again."
+message:
+  profile:
+    profile:
+      current-level: "Your current level is {{level}}"
+      current-exp: "You currently have {{exp}} exp."
+  utility:
+    donate:
+      title: "Information about Donations."
+      footer: "Donating is totally optional and is not required for most use cases."
+      field:
+        one:
+          title: "How donations are being used:"
+          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+        two:
+          title: "How to donate:"
+          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+interactions:
+  settings:
+    agreedtoterms:
+      success-title: "I'm looking forward to interacting with you."
+      success-description: "Thanks for confirming that you've read and accepted our terms and policies. You're all set!"
+error:
+  500:
+    name: "Error 500"
+    description: "test"
