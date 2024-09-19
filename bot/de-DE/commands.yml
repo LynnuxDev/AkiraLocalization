@@ -16,9 +16,9 @@ message:
       field:
         one:
           title: "Wie Spenden verwendet werden:"
-          description: "Die Spenden, die mein Entwickler erhält {{italic}}(auf allen Plattformen){{/italic}}, gehen in die Wartung und Pflege von mir (Akira) und meinen verwandten Diensten. Jede zusätzliche Spende, die sie machen, geht an eine Wohltätigkeitsorganisation. Für weitere Informationen darüber, wie sie Spenden verwenden, klicke [hier]({{linkDonatePost}})."
+          description: "Die Spenden, die mein Entwickler erhält {{italic}}(auf allen Plattformen){{/italic}}, gehen in die Wartung und Pflege von mir (Akira) und meinen verwandten Diensten. Jede zusätzliche Spende, die du machst, geht an eine Wohltätigkeitsorganisation. Für weitere Informationen darüber, wie meine Entwickler Spenden verwenden, klicke [hier]({{linkDonatePost}})."
         two:
-          title: "Wie können Sie Spenden:"
+          title: "Wie kannst du Spenden:"
           description: "Du kannst spenden, indem du das [Patreon]({{linkPatreon}}) meines Entwicklers abonnierst oder eine einmalige Zahlung über [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) machst {{newLine}}-# *für Bitcoin-Spenden kontaktiere bitte direkt meinen Entwickler über ihre [Website]({{linkLynnuxContact}}) oder benutze {{prefix}}contact*"
     about:
       title: "Informationen über Akira"
