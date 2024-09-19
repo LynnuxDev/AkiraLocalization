@@ -1,24 +1,24 @@
 slash:
   economy:
     work:
-      description: "Work to earn money."
-      success: "You worked and earned {{amount}} coins!"
+      description: "Trabalhe para ganhar dinheiro."
+      success: "Você trabalhou e ganhou {{amount}} moedas!"
       cooldown: "You need to wait {{time}} before working again."
 message:
   profile:
     profile:
-      current-level: "Your current level is {{level}}"
-      current-exp: "You currently have {{exp}} exp."
+      current-level: "Seu nível atual é {{level}}"
+      current-exp: "Você atualmente tem {{exp}} exp."
   utility:
     donate:
       title: "Information about Donations."
-      footer: "Donating is totally optional and is not required for most use cases."
+      footer: "Doações são totalmente opcionais e não são necessárias na maior parte dos casos."
       field:
         one:
-          title: "How donations are being used:"
-          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+          title: "Como doações estão sendo usadas:"
+          description: "As doações que meu desenvolvedor recebe {{italic}}(em todas as plataformas){{/italic}} são destinadas à manutenção de mim (Akira) e dos meus serviços relacionados; qualquer valor extra será destinado a uma instituição de caridade. Para mais informações sobre como as doações são usadas, clique [aqui] ({{linkDonatePost}})."
         two:
-          title: "How to donate:"
+          title: "Como doar:"
           description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
     about:
       title: "Akira information"
