@@ -16,13 +16,13 @@ message:
       field:
         one:
           title: "Como doações estão sendo usadas:"
-          description: "As doações que meu desenvolvedor recebe {{italic}}(em todas as plataformas){{/italic}} são destinadas à manutenção de mim (Akira) e dos meus serviços relacionados; qualquer valor extra será destinado a uma instituição de caridade. Para mais informações sobre como as doações são usadas, clique [aqui] ({{linkDonatePost}})."
+          description: "As doações que meu desenvolvedor recebe {{italic}}(em todas as plataformas){{/italic}} são destinadas à manutenção de mim (Akira) e dos meus serviços relacionados; qualquer valor extra será destinado a uma instituição de caridade. Para mais informações sobre como as doações são usadas, clique [aqui]({{linkDonatePost}})."
         two:
           title: "Como doar:"
-          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+          description: "Você pode doar assinando o [Patreon]({{linkPatreon}}) do meu desenvolvedor ou fazer um pagamento único no [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# para doações em bitcoin, por favor, entre em contato diretamente com o meu desenvolvedor através do [site]({{linkLynnuxContact}}) ou use {{prefix}}contato*"
     about:
-      title: "Akira information"
-      description: "Akira is a multipurpose easy to use discord bot"
+      title: "Informação sobre Akira"
+      description: "Akira é um bot do discord com múltiplos propósitos e fácil de usar"
       field:
         one:
           title: "Build"
