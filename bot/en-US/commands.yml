@@ -12,6 +12,7 @@ message:
   utility:
     donate:
       title: "Information about Donations."
+      footer: "Donating is totally optional and is not required for most use cases."
       field:
         one:
           title: "How donations are being used:"
