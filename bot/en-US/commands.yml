@@ -22,7 +22,7 @@ message:
           description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
     about:
       title: "Akira information"
-      description: "Akira is a multipurpose easy to use discord bot"
+      description: "Akira is a multipurpose easy to use discord bot."
       field:
         one:
           title: "Build"
