@@ -10,6 +10,16 @@ message:
     profile:
       current-level: "Your current level is {{level}}"
       current-exp: "You currently have {{exp}} exp."
+  utility:
+    donate:
+      title: "Information about Donations."
+      field:
+        one: 
+          title: "How donations are being used:"
+          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+        two:
+          title: "How to donate:"
+          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnux}}) or us {{prefix}}contact*"
 
 interactions:
   settings:
