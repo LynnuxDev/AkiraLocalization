@@ -1,49 +1,49 @@
 slash:
   economy:
     work:
-      description: "Work to earn money."
-      success: "You worked and earned {{amount}} coins!"
-      cooldown: "You need to wait {{time}} before working again."
+      description: "Arbeiten, um Geld zu verdienen."
+      success: "Du hast gearbeitet und {{amount}} Münzen verdient!"
+      cooldown: "Du musst {{time}} warten, bevor du wieder arbeiten kannst."
 message:
   profile:
     profile:
-      current-level: "Your current level is {{level}}"
-      current-exp: "You currently have {{exp}} exp."
+      current-level: "Dein aktuelles Level ist {{level}}"
+      current-exp: "Du hast derzeit {{exp}} EP."
   utility:
     donate:
-      title: "Information about Donations."
-      footer: "Donating is totally optional and is not required for most use cases."
+      title: "Informationen zu Spenden."
+      footer: "Das Spenden ist völlig optional und in den meisten Anwendungsfällen nicht erforderlich."
       field:
         one:
-          title: "How donations are being used:"
-          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+          title: "Wie Spenden verwendet werden:"
+          description: "Die Spenden, die mein Entwickler erhält {{italic}}(auf allen Plattformen){{/italic}}, gehen in die Wartung und Pflege von mir (Akira) und meinen verwandten Diensten. Jede zusätzliche Spende, die sie machen, geht an eine Wohltätigkeitsorganisation. Für weitere Informationen darüber, wie sie Spenden verwenden, klicke [hier]({{linkDonatePost}})."
         two:
-          title: "How to donate:"
-          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+          title: "Wie können Sie Spenden:"
+          description: "Du kannst spenden, indem du das [Patreon]({{linkPatreon}}) meines Entwicklers abonnierst oder eine einmalige Zahlung über [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) machst {{newLine}}-# *für Bitcoin-Spenden kontaktiere bitte direkt meinen Entwickler über ihre [Website]({{linkLynnuxContact}}) oder benutze {{prefix}}contact*"
     about:
-      title: "Akira information"
-      description: "Akira is a multipurpose easy to use discord bot"
+      title: "Informationen über Akira"
+      description: "Akira ist ein vielseitiger, benutzerfreundlicher Discord-Bot."
       field:
         one:
-          title: "Build"
+          title: "Build-Version"
           description: "Beta"
         two:
           title: "Akira Version"
         three:
-          title: "Website"
-          descrption: "[Click Me]({{linkAkira}})"
+          title: "Webseite"
+          descrption: "[Klicke hier]({{linkAkira}})"
         four:
           title: "Server"
-          description: "[Click Me]({{linkAkiraServer}})"
+          description: "[Klicke hier]({{linkAkiraServer}})"
         five:
-          title: "Invite"
-          description: "[Click Me]({{linkAkiraInvite}})"
+          title: "Einladung"
+          description: "[Klicke hier]({{linkAkiraInvite}})"
 interactions:
   settings:
     agreedtoterms:
-      success-title: "I'm looking forward to interacting with you."
-      success-description: "Thanks for confirming that you've read and accepted our terms and policies. You're all set!"
+      success-title: "Ich freue mich darauf, mit dir in Kontakt zu treten."
+      success-description: "Vielen Dank, dass du bestätigt hast, dass du unsere Allgemeinen Geschäftsbedingungen und Richtlinien gelesen und akzeptiert hast. Du bist jetzt bereit!"
 error:
   500:
-    name: "Error 500"
-    description: "test"
+    name: "Fehler 500"
+    description: "Test"
