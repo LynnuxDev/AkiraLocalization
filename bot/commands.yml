@@ -21,7 +21,26 @@ message:
         two:
           title: "How to donate:"
           description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+    about:
+      title: "Akira information"
+      description: "Akira is a multipurpose easy to use discord bot"
+      field:
+        one: 
+          title: "Build"
+          description: "Beta"
+        two:
+          title: "Akira Version"
+        three:
+          title: "Website"
+          descrption: "[Click Me]({{linkAkira}})"
+        four:
+          title: "Server"
+          description: "[Click Me]({{linkAkiraServer}})"
+        five:
+          title: "Invite"
+          description: "[Click Me]({{linkAkiraInvite}})"
 
+  
 interactions:
   settings:
     agreedtoterms:
