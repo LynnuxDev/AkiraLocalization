@@ -32,7 +32,7 @@ message:
   roleplay:
     wholesome:
       kiss:
-        description: "{{user}} got kissed by {{author}}."
+        description: "{{user}} is gekust door {{author}}."
         footer:
           one: "{{author}} heeft {{amount}} keer gekust."
           oneSingle: "{{author}} heeft {{amount}} keer gekust."
