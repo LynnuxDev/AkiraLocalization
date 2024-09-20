@@ -29,21 +29,25 @@ message:
           description: "Beta"
         two:
           title: "Akira Version"
-        three:
-          title: "Webseite"
-          descrption: "[Klicke hier]({{linkAkira}})"
-        four:
-          title: "Server"
-          description: "[Klicke hier]({{linkAkiraServer}})"
-        five:
-          title: "Einladung"
-          description: "[Klicke hier]({{linkAkiraInvite}})"
 interactions:
   settings:
     agreedtoterms:
-      success-title: "Ich freue mich darauf, mit dir in Kontakt zu treten."
-      success-description: "Vielen Dank, dass du bestätigt hast, dass du unsere Allgemeinen Geschäftsbedingungen und Richtlinien gelesen und akzeptiert hast. Du bist jetzt bereit!"
+      title: "Thanks for Agreeing."
+      description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
+      footer: "Akira at your service!"
+global:
+  buttons:
+    button: "Click Here"
+    button2: "Click Me"
+    button3: "Link"
+    Invite: "Invite"
+    website: "Website"
+    server: "Server"
 error:
   500:
     name: "Fehler 500"
     description: "Test"
+testing:
+  test: "Testing Translation"
+  test2: "This is a test translation."
+  test3: "This is a test translation {{newLine}} with a tag."
