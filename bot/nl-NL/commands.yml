@@ -33,21 +33,21 @@ interactions:
   settings:
     agreedtoterms:
       main:
-        title: "Hey there! It's Akira"
-        description: "Before we can hang out, I need you to agree to a few simple terms. Don’t worry, it’s quick and easy! Just click the button below, and we’ll be all set."
+        title: "Hallo daar! Ik ben Akira"
+        description: "Voordat we kunnen beginnen, moet je akkoord gaan met een paar eenvoudige voorwaarden. Geen zorgen, het is snel en makkelijk! Klik gewoon op de knop hieronder, en dan zijn we klaar."
         field:
-          fieldone: "Please make sure to review my {{linkTerms}} before continuing."
+          fieldone: "Bekijk alsjeblieft mijn {{linkTerms}} voordat je verder gaat."
           fieldtwo:
-            title: "Privacy First"
-            description: "Please make sure to review my {{linkTerms}} before continuing."
+            title: "Privacy Eerst"
+            description: "Bekijk alsjeblieft mijn {{linkTerms}} voordat je verder gaat."
           fieldthree:
-            title: "Breaking my rules"
-            description: "If you don’t follow my terms, I might have to stop helping you. (´•̥ω•̥`)"
-        button: "Agree and Let’s Go"
+            title: "Breken van mijn regels"
+            description: "Als u mijn voorwaarden niet volgt, moet ik misschien stoppen met het helpen van u. (´•̥ω•̥`)"
+        button: "Akkoord en ga door"
       agree:
-        title: "Thanks for Agreeing."
-        description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
-        footer: "Akira at your service!"
+        title: "Bedankt voor je overeenkomst."
+        description: "Ik ben zo blij dat je erbij bent! Nu kun je van al mijn functies en commands gebruikmaken. Laten we er iets leuks van maken!"
+        footer: "Akira tot uw dienst!"
 global:
   buttons:
     button: "Klik Hier"
@@ -56,7 +56,7 @@ global:
     Invite: "Uitnodigen"
     website: "Website"
     server: "Server"
-    terms: "Terms of Service"
+    terms: "Algemene Gebruikersvoorwaarden"
 error:
   500:
     name: "Fout 500"
