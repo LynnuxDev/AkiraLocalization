@@ -33,6 +33,9 @@ message:
     wholesome:
       kiss:
         description: "{{author}} got kissed by {{user}}."
+        footer:
+          one: "{{author}} has kissed {{amount}} times."
+          two: "{{user}} has been kissed {{amount}} times."
 interactions:
   settings:
     agreedtoterms:
