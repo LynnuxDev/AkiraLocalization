@@ -32,9 +32,22 @@ message:
 interactions:
   settings:
     agreedtoterms:
-      title: "Thanks for Agreeing."
-      description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
-      footer: "Akira at your service!"
+      main:
+        title: "Hey there! It's Akira"
+        description: "Before we can hang out, I need you to agree to a few simple terms. Don’t worry, it’s quick and easy! Just click the button below, and we’ll be all set."
+        field:
+          fieldone: "Please make sure to review my {{linkTerms}} before continuing."
+          fieldtwo:
+            title: "Privacy First"
+            description: "Please make sure to review my {{linkTerms}} before continuing."
+          fieldthree:
+            title: "Breaking my rules"
+            description: "If you don’t follow my terms, I might have to stop helping you. (´•̥ω•̥`)"
+        button: "Agree and Let’s Go"
+      agree:
+        title: "Thanks for Agreeing."
+        description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
+        footer: "Akira at your service!"
 global:
   buttons:
     button: "Click Here"
@@ -43,6 +56,7 @@ global:
     Invite: "Invite"
     website: "Website"
     server: "Server"
+    terms: "Terms of Service"
 error:
   500:
     name: "Fehler 500"
