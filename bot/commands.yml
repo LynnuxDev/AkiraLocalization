@@ -36,7 +36,9 @@ message:
         description: "{{author}} got kissed by {{user}}."
         footer:
           one: "{{author}} has kissed {{amount}} times."
+          oneSingle: "{{user}} has been kissed {{amount}} time."
           two: "{{user}} has been kissed {{amount}} times."
+          twoSingle: "{{user}} has been kissed {{amount}} time."
 
 interactions:
   settings:
