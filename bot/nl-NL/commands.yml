@@ -32,7 +32,10 @@ message:
   roleplay:
     wholesome:
       kiss:
-        description: "{{author}} got kissed by {{user}}."
+        description: "{{author}} is gekust door {{user}}."
+        footer:
+          one: "{{author}} has kissed {{amount}} times."
+          two: "{{user}} has been kissed {{amount}} times."
 interactions:
   settings:
     agreedtoterms:
