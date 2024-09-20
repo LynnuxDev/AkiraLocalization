@@ -15,7 +15,7 @@ message:
       title: "Information about Donations."
       footer: "Donating is totally optional and is not required for most use cases."
       field:
-        one: 
+        one:
           title: "How donations are being used:"
           description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
         two:
@@ -25,30 +25,34 @@ message:
       title: "Akira information"
       description: "Akira is a multipurpose easy to use discord bot"
       field:
-        one: 
+        one:
           title: "Build"
           description: "Beta"
         two:
           title: "Akira Version"
-        three:
-          title: "Website"
-          descrption: "[Click Me]({{linkAkira}})"
-        four:
-          title: "Server"
-          description: "[Click Me]({{linkAkiraServer}})"
-        five:
-          title: "Invite"
-          description: "[Click Me]({{linkAkiraInvite}})"
 
-  
 interactions:
   settings:
     agreedtoterms:
-      success-title: "I'm looking forward to interacting with you."
-      success-description: "Thanks for confirming that you've read and accepted our terms and policies. You're all set!"
+      title: "Thanks for Agreeing."
+      description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
+      footer: "Akira at your service!"
+
+global:
+  buttons:
+    button: "Click Here"
+    button2: "Click Me"
+    button3: "Link"
+    Invite: "Invite"
+    website: "Website"
+    server: "Server"
 
 error:
   500:
     name: "Error 500"
     description: "test"
-    
+
+testing:
+  test: "Testing Translation"
+  test2: "This is a test translation."
+  test3: "This is a test translation {{newLine}} with a tag."
