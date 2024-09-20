@@ -29,6 +29,10 @@ message:
           description: "Bètaversie"
         two:
           title: "Akira Versie"
+  roleplay:
+    wholesome:
+      kiss:
+        description: "{{author}} got kissed by {{user}}."
 interactions:
   settings:
     agreedtoterms:
