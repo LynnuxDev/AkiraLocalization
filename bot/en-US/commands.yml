@@ -48,6 +48,6 @@ error:
     name: "Error 500"
     description: "test"
 testing:
-  test: "Testing Translation"
+  test: "Testing translation"
   test2: "This is a test translation."
   test3: "This is a test translation {{newLine}} with a tag."
