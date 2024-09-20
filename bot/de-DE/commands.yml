@@ -43,7 +43,7 @@ interactions:
     agreedtoterms:
       main:
         title: "Hi, Akira hier"
-        description: "Bevor wir loslegen können, brauche ich dich, da du ein paar Bedingungen zustimmen musst! Mach dir keine Sorgen, es geht schnell und einfach! Klick einfach unten auf die Schaltfläche und dann wird schon fertig."
+        description: "Bevor wir loslegen können, brauche ich dich, da du ein paar Bedingungen zustimmen musst! Mach dir keine Sorgen, es geht schnell und einfach! Klick einfach unten auf die Schaltfläche und dann sind wir schon fertig."
         field:
           fieldone: "Bitte schau erst bei {{linkTerms}} vorbei bevor du fortfährst."
           fieldtwo:
