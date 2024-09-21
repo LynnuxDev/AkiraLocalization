@@ -55,8 +55,8 @@ interactions:
         button: "Zustimmen und los geht's"
       agree:
         title: "Danke für deine Zustimmung."
-        description: "Ich bin glücklich, dass du an Bord bist! Jetzt kannst du alle meine Funktionen und Befehle genießen und nutzen. Lass uns etwas Spaß machen!"
-        footer: "Akira zu deinem Dienst!"
+        description: "Ich bin glücklich, dass du an Bord bist! Jetzt kannst du alle meine Funktionen und Befehle genießen und nutzen. Lass uns etwas Spaß haben!"
+        footer: "Akira zu deinen Diensten!"
 global:
   buttons:
     button: "Hier klicken"
