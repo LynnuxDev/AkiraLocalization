@@ -1,0 +1,76 @@
+slash:
+  economy:
+    work:
+      description: "Werk om geld te verdienen."
+      success: "Je hebt gewerkt en hebt {{amount}} munten verdiend!"
+      cooldown: "Je moet {{time}} wachten om opnieuw te werken."
+message:
+  profile:
+    profile:
+      current-level: "Je huidige level is {{level}}"
+      current-exp: "Je hebt momenteel {{exp}} exp."
+  utility:
+    donate:
+      title: "Informatie over donaties."
+      footer: "Doneren is volledig optioneel en is niet vereist voor de meeste toepassingen."
+      field:
+        one:
+          title: "Hoe donaties worden gebruikt:"
+          description: "De donaties die mijn ontwikkelaar ontvangt {{italic}}(op alle platforms){{/italic}} gaan naar het onderhouden van mij (Akira) en mijn gerelateerde diensten. Elke extra donatie die ze maken, gaat naar een goed doel. Voor meer informatie over hoe ze donaties gebruiken, klik [hier]({{linkDonatePost}})."
+        two:
+          title: "Hoe te doneren:"
+          description: "Je kunt doneren door je te abonneren op de [Patreon]({{linkPatreon}}) van mijn developer of een eenmalige betaling te doen via [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *voor bitcoin-donaties, neem direct contact op met mijn developer via hun [website]({{linkLynnuxContact}}) of gebruik {{prefix}}contact*"
+    about:
+      title: "Akira informatie."
+      description: "Akira is een veelzijdige, gebruiksvriendelijke Discord robot."
+      field:
+        one:
+          title: "Bouwversie"
+          description: "Bètaversie"
+        two:
+          title: "Akira Versie"
+  roleplay:
+    wholesome:
+      kiss:
+        description: "{{user}} is gekust door {{author}}."
+        footer:
+          one: "{{author}} heeft {{amount}} keer gekust."
+          oneSingle: "{{author}} heeft {{amount}} keer gekust."
+          two: "{{user}} is {{amount}} keer gekust."
+          twoSingle: "{{user}} is {{amount}} keer gekust."
+interactions:
+  settings:
+    agreedtoterms:
+      main:
+        title: "Hallo daar! Ik ben Akira"
+        description: "Voordat we kunnen beginnen, moet je akkoord gaan met een paar eenvoudige voorwaarden. Geen zorgen, het is snel en makkelijk! Klik gewoon op de knop hieronder, en dan zijn we klaar."
+        field:
+          fieldone: "Bekijk alsjeblieft mijn {{linkTerms}} voordat je verder gaat."
+          fieldtwo:
+            title: "Privacy Eerst"
+            description: "Bekijk alsjeblieft mijn {{linkTerms}} voordat je verder gaat."
+          fieldthree:
+            title: "Breken van mijn regels"
+            description: "Als u mijn voorwaarden niet volgt, moet ik misschien stoppen met het helpen van u. (´•̥ω•̥`)"
+        button: "Akkoord en ga door"
+      agree:
+        title: "Bedankt voor je overeenkomst."
+        description: "Ik ben zo blij dat je erbij bent! Nu kun je van al mijn functies en commands gebruikmaken. Laten we er iets leuks van maken!"
+        footer: "Akira tot uw dienst!"
+global:
+  buttons:
+    button: "Klik Hier"
+    button2: "Click Me"
+    button3: "Link"
+    Invite: "Uitnodigen"
+    website: "Website"
+    server: "Server"
+    terms: "Algemene Gebruikersvoorwaarden"
+error:
+  500:
+    name: "Fout 500"
+    description: "test"
+testing:
+  test: "Testen vertaling"
+  test2: "Dit is een testvertaling."
+  test3: "Dit is een test vertaling {{newLine}} met een tag."

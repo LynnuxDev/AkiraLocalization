@@ -1,0 +1,76 @@
+slash:
+  economy:
+    work:
+      description: "Arbeiten, um Geld zu verdienen."
+      success: "Du hast gearbeitet und {{amount}} Münzen verdient!"
+      cooldown: "Du musst {{time}} warten, bevor du wieder arbeiten kannst."
+message:
+  profile:
+    profile:
+      current-level: "Dein aktuelles Level ist {{level}}"
+      current-exp: "Du hast derzeit {{exp}} EP."
+  utility:
+    donate:
+      title: "Informationen zu Spenden."
+      footer: "Das Spenden ist völlig optional und in den meisten Anwendungsfällen nicht erforderlich."
+      field:
+        one:
+          title: "Wie Spenden verwendet werden:"
+          description: "Die Spenden, die mein Entwickler erhält {{italic}}(auf allen Plattformen){{/italic}}, gehen in die Wartung und Pflege von mir (Akira) und meinen verwandten Diensten. Jede zusätzliche Spende, die du machst, geht an eine Wohltätigkeitsorganisation. Für weitere Informationen darüber, wie meine Entwickler Spenden verwenden, klicke [hier]({{linkDonatePost}})."
+        two:
+          title: "Wie kannst du Spenden:"
+          description: "Du kannst spenden, indem du das [Patreon]({{linkPatreon}}) meines Entwicklers abonnierst oder eine einmalige Zahlung über [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) machst {{newLine}}-# *für Bitcoin-Spenden kontaktiere bitte direkt meinen Entwickler über ihre [Website]({{linkLynnuxContact}}) oder benutze {{prefix}}contact*"
+    about:
+      title: "Informationen über Akira"
+      description: "Akira ist ein vielseitiger, benutzerfreundlicher Discord-Bot."
+      field:
+        one:
+          title: "Build-Version"
+          description: "Beta"
+        two:
+          title: "Akira Version"
+  roleplay:
+    wholesome:
+      kiss:
+        description: "{{user}} wurde von {{author}} geküsst."
+        footer:
+          one: "{{author}} hat {{amount}} mal geküsst."
+          oneSingle: "{{author}} hat {{amount}} mal geküsst."
+          two: "{{user}} wurde {{amount}} mal geküsst."
+          twoSingle: "{{user}} wurde {{amount}} mal geküsst."
+interactions:
+  settings:
+    agreedtoterms:
+      main:
+        title: "Hi, Akira hier"
+        description: "Bevor wir loslegen können, brauche ich dich, da du ein paar Bedingungen zustimmen musst! Mach dir keine Sorgen, es geht schnell und einfach! Klick einfach unten auf die Schaltfläche und dann sind wir schon fertig."
+        field:
+          fieldone: "Bitte schau erst bei {{linkTerms}} vorbei bevor du fortfährst."
+          fieldtwo:
+            title: "Datenschutz zuerst"
+            description: "Bitte schau erst bei {{linkTerms}} vorbei bevor du fortfährst."
+          fieldthree:
+            title: "Meine Regeln brechen"
+            description: "Wenn du meine Bedingungen nicht folgst, kann ich dir leider nicht weiterhelfen. (´•̥ω•̥`)"
+        button: "Zustimmen und los geht's"
+      agree:
+        title: "Danke für deine Zustimmung."
+        description: "Ich bin glücklich, dass du an Bord bist! Jetzt kannst du alle meine Funktionen und Befehle genießen und nutzen. Lass uns etwas Spaß haben!"
+        footer: "Akira zu deinen Diensten!"
+global:
+  buttons:
+    button: "Hier klicken"
+    button2: "Klick mich"
+    button3: "Link"
+    Invite: "Einladung"
+    website: "Webseite"
+    server: "Server"
+    terms: "Nutzungsbedingungen"
+error:
+  500:
+    name: "Fehler 500"
+    description: "Test"
+testing:
+  test: "Testen der Übersetzung"
+  test2: "Dies ist eine Testübersetzung."
+  test3: "Dies ist eine Testübersetzung {{newLine}} mit einem Tag."
