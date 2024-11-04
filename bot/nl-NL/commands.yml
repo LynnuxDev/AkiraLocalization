@@ -45,6 +45,14 @@ message:
           oneSingle: "{{author}} heeft {{amount}} keer geknuffeld."
           two: "{{user}} Werd {{amount}} keer geknuffeld."
           twoSingle: "{{user}} Werd {{amount}} keer geknuffeld."
+      blush:
+        description: "{{user}} made {{author}} blush."
+        descriptionSingle: "{{author}} is blushing."
+        footer:
+          one: "{{author}} has blushed {{amount}} times."
+          oneSingle: "{{author}} has blushed {{amount}} time."
+          two: "{{user}} made someone blush {{amount}} times."
+          twoSingle: "{{user}} made someone blush {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
