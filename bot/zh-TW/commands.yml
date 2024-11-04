@@ -38,6 +38,13 @@ message:
           oneSingle: "{{author}} has kissed {{amount}} time."
           two: "{{user}} has been kissed {{amount}} times."
           twoSingle: "{{user}} has been kissed {{amount}} time."
+      hug:
+        description: "{{user}} got hugged by {{author}}."
+        footer:
+          one: "{{author}} has hugged {{amount}} times."
+          oneSingle: "{{author}} has hugged {{amount}} time."
+          two: "{{user}} got hugged {{amount}} times."
+          twoSingle: "{{user}} got hugged {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
