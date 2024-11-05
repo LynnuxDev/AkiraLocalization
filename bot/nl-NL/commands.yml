@@ -29,6 +29,13 @@ message:
           description: "Bètaversie"
         two:
           title: "Akira Versie"
+    translate:
+      translators: "translators"
+      lastUpdate: "last updated"
+      progress: "progress"
+      thanksTranslators: "Thank you to everyone who contributed to the {{language}} translation! Here's the latest progress."
+      translationInfo: "translation info"
+      translationProgress: "{{amount}} finished"
   roleplay:
     wholesome:
       kiss:
