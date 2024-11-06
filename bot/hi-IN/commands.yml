@@ -1,98 +1,98 @@
 slash:
   economy:
     work:
-      description: "Work to earn money."
-      success: "You worked and earned {{amount}} coins!"
-      cooldown: "You need to wait {{time}} before working again."
+      description: "पैसे कमाने के लिए काम करो ।"
+      success: "आपको काम करने के लिए {{amount}} सिक्के मिले!"
+      cooldown: "दोबारा काम करने के लिए कृपया {{time}} रुके।"
 message:
   profile:
     profile:
-      current-level: "Your current level is {{level}}"
-      current-exp: "You currently have {{exp}} exp."
+      current-level: "आपका मौजूदा स्तर अभी {{level}} है"
+      current-exp: "आपके पास {{exp}} exp है।"
   utility:
     donate:
-      title: "Information about Donations."
-      footer: "Donating is totally optional and is not required for most use cases."
+      title: "दान के बारे में जानकारी।"
+      footer: "दान करना बिल्कुल वैकल्पिक है और ज़्यादातर मामलों में यह जरूरी नहीं है।"
       field:
         one:
-          title: "How donations are being used:"
-          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+          title: "दान का उपयोग कैसे किया जा रहा है:"
+          description: "मेरे डेवलपर को जो दान मिलता है वह {{italic}}(सभी प्लेटफार्मों पर){{/italic}} मेरे (अकीरा) और मेरी संबंधित सेवाओं के रखरखाव/रखरखाव में जाता है, वे जो भी अतिरिक्त योगदान देते हैं वह एक चैरिटी में जाता है। वे दान का उपयोग कैसे करते हैं, इस बारे में अधिक जानकारी के लिए [यहां]({{linkDonatePost}}) पर क्लिक करें।"
         two:
-          title: "How to donate:"
-          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+          title: "दान कैसे करें:"
+          description: "आप मेरे डेवलपर्स [patreon]({{linkPatreon}}) की सदस्यता लेकर दान कर सकते हैं या [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) पर एकमुश्त भुगतान कर सकते हैं। {{newLine}}-# *बिटकॉइन दान के लिए कृपया सीधे मेरे डेवलपर से उनकी [वेबसाइट]({{linkLynnuxContact}}) या हमसे {{prefix}}संपर्क* का उपयोग करके संपर्क करें।"
     about:
-      title: "Akira information"
-      description: "Akira is a multipurpose easy to use discord bot"
+      title: "अकीरा की जानकारी"
+      description: "अकीरा एक बहुउद्देशीय आसान उपयोगी बोट है"
       field:
         one:
-          title: "Build"
-          description: "Beta"
+          title: "बनाया"
+          description: "बीटा"
         two:
-          title: "Akira Version"
+          title: "अकीरा संस्करण"
     translate:
-      translators: "translators"
-      lastUpdate: "last updated"
-      progress: "progress"
-      thanksTranslators: "Thank you to everyone who contributed to the {{language}} translation! Here's the latest progress."
-      translationInfo: "translation info"
-      translationProgress: "{{amount}} finished"
+      translators: "अनुवादक"
+      lastUpdate: "आखिरी बार अद्यतन किया गया"
+      progress: "प्रगति"
+      thanksTranslators: "जिन्होंने {{language}} में अपना योगदान दिया उन सभी धन्यवाद! यह रही नवीनतम प्रगति।"
+      translationInfo: "अनुवादक की जानकारी"
+      translationProgress: "{{amount}} पूरा हो चुका है।"
   roleplay:
     wholesome:
       kiss:
-        description: "{{user}} got kissed by {{author}}."
+        description: "{{author}} ने {{user}} को किस किया।"
         footer:
-          one: "{{author}} has kissed {{amount}} times."
-          oneSingle: "{{author}} has kissed {{amount}} time."
-          two: "{{user}} has been kissed {{amount}} times."
-          twoSingle: "{{user}} has been kissed {{amount}} time."
+          one: "{{author}} {{amount}} बार किस कर चुके हैं।"
+          oneSingle: "{{author}} {{amount}} बार किस कर चुके हैं।"
+          two: "{{user}} {{amount}} बार किस किए जा चुके हैं।"
+          twoSingle: "{{user}} {{amount}} बार किस किए जा चुके हैं।"
       hug:
-        description: "{{user}} got hugged by {{author}}."
+        description: "{{author}} ने {{user}} को हग किया।"
         footer:
-          one: "{{author}} has hugged {{amount}} times."
-          oneSingle: "{{author}} has hugged {{amount}} time."
-          two: "{{user}} got hugged {{amount}} times."
-          twoSingle: "{{user}} got hugged {{amount}} time."
+          one: "{{author}} {{amount}} बार हग कर चुके हैं।"
+          oneSingle: "{{author}} {{amount}} बार हग कर चुके हैं।"
+          two: "{{user}} {{amount}} बार हग किए जा चुके हैं।"
+          twoSingle: "{{user}} {{amount}} बार हग किए जा चुके हैं।"
       blush:
-        description: "{{user}} made {{author}} blush."
-        descriptionSingle: "{{author}} is blushing."
+        description: "{{author}} को {{user}} से शर्म आ गई।"
+        descriptionSingle: "{{author}} शर्मा रहे हैं।"
         footer:
-          one: "{{author}} has blushed {{amount}} times."
-          oneSingle: "{{author}} has blushed {{amount}} time."
-          two: "{{user}} made someone blush {{amount}} times."
-          twoSingle: "{{user}} made someone blush {{amount}} time."
+          one: "{{author}} {{amount}} बार शर्मा चुके हूं।"
+          oneSingle: "{{author}} {{amount}} बार शर्मा चुके हूं।"
+          two: "{{user}} ने किसीको {{amount}} बार शर्माया है।"
+          twoSingle: "{{user}} ने किसीको {{amount}} बार शर्माया है।"
 interactions:
   settings:
     agreedtoterms:
       main:
-        title: "Hey there! It's Akira"
-        description: "Before we can hang out, I need you to agree to a few simple terms. Don’t worry, it’s quick and easy! Just click the button below, and we’ll be all set."
+        title: "नमस्ते! मै अकीरा हु"
+        description: "इससे पहले कि हम बातें करें, मैं चाहती हूँ कि आप कुछ सरल शर्तों पर सहमत हों। चिंता न करें, यह त्वरित और आसान है! बस नीचे दिए गए बटन पर क्लिक करें, और हम पूरी तरह तैयार हो जाएंगे।"
         field:
-          fieldone: "Please make sure to review my {{linkTerms}} before continuing."
+          fieldone: "आगे बढ़ने से पहले कृपया मेरी {{linkTerms}} का निरीक्षण करलें।"
           fieldtwo:
-            title: "Privacy First"
-            description: "Please make sure to review my {{linkTerms}} before continuing."
+            title: "सुरक्षा पहले"
+            description: "आगे बढ़ने से पहले कृपया मेरी {{linkTerms}} का निरीक्षण करलें।"
           fieldthree:
-            title: "Breaking my rules"
-            description: "If you don’t follow my terms, I might have to stop helping you. (´•̥ω•̥`)"
-        button: "Agree and Let’s Go"
+            title: "मेरे नियमों को तोड़ना"
+            description: "अगर आप मेरी शर्तें नहीं मानेंगे तो मैं आपके लिए काम करना छोड़ दूंगी। (´•̥ω•̥`)"
+        button: "सहमत हों और आगे बढ़ें"
       agree:
-        title: "Thanks for Agreeing."
-        description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
-        footer: "Akira at your service!"
+        title: "सहमत होने के लिए धन्यवाद।"
+        description: "मैं आपको बोर्ड पर पाकर बहुत खुश हूँ! अब आप मेरे सारी विशेषताओं का इस्तेमाल कर सकते हैं। चलो कुछ मजे करें!"
+        footer: "अकीरा आपकी सेवा में हाजिर!"
 global:
   buttons:
-    button: "Click Here"
-    button2: "Click Me"
-    button3: "Link"
-    Invite: "Invite"
-    website: "Website"
-    server: "Server"
-    terms: "Terms of Service"
+    button: "यहां क्लिक करें"
+    button2: "मुझे क्लिक करें"
+    button3: "लिंक"
+    Invite: "बुलाएं"
+    website: "वेबसाइट"
+    server: "सर्वर"
+    terms: "सेवा की शर्तें"
 error:
   500:
-    name: "Error 500"
-    description: "test"
+    name: "गलती 500"
+    description: "परीक्षण"
 testing:
-  test: "Testing Translation"
-  test2: "This is a test translation."
-  test3: "This is a test translation {{newLine}} with a tag."
+  test: "परीक्षण अनुवाद"
+  test2: "यह एक परीक्षण अनुवाद है।"
+  test3: "यह एक परीक्षण अनुवाद है {{newLine}} एक टैग के साथ।"
