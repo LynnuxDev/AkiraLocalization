@@ -31,11 +31,11 @@ message:
           title: "Akira Versie"
     translate:
       translators: "vertalers"
-      lastUpdate: "last updated"
-      progress: "progress"
-      thanksTranslators: "Thank you to everyone who contributed to the {{language}} translation! Here's the latest progress."
-      translationInfo: "translation info"
-      translationProgress: "{{amount}} finished"
+      lastUpdate: "laatst bijgewerkt"
+      progress: "vooruitgang"
+      thanksTranslators: "Hartelijk dank aan iedereen die heeft bijgedragen aan de {{language}} vertaling! Hier is de laatste vooruitgang."
+      translationInfo: "vertaling informatie"
+      translationProgress: "{{amount}} voltooid"
   roleplay:
     wholesome:
       kiss:
