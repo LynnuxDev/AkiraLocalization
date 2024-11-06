@@ -1,0 +1,98 @@
+slash:
+  economy:
+    work:
+      description: "Work to earn money."
+      success: "You worked and earned {{amount}} coins!"
+      cooldown: "You need to wait {{time}} before working again."
+message:
+  profile:
+    profile:
+      current-level: "Your current level is {{level}}"
+      current-exp: "You currently have {{exp}} exp."
+  utility:
+    donate:
+      title: "Information about Donations."
+      footer: "Donating is totally optional and is not required for most use cases."
+      field:
+        one:
+          title: "How donations are being used:"
+          description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
+        two:
+          title: "How to donate:"
+          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
+    about:
+      title: "Akira information"
+      description: "Akira is a multipurpose easy to use discord bot"
+      field:
+        one:
+          title: "Build"
+          description: "Beta"
+        two:
+          title: "Akira Version"
+    translate:
+      translators: "translators"
+      lastUpdate: "last updated"
+      progress: "progress"
+      thanksTranslators: "Thank you to everyone who contributed to the {{language}} translation! Here's the latest progress."
+      translationInfo: "translation info"
+      translationProgress: "{{amount}} finished"
+  roleplay:
+    wholesome:
+      kiss:
+        description: "{{user}} got kissed by {{author}}."
+        footer:
+          one: "{{author}} has kissed {{amount}} times."
+          oneSingle: "{{author}} has kissed {{amount}} time."
+          two: "{{user}} has been kissed {{amount}} times."
+          twoSingle: "{{user}} has been kissed {{amount}} time."
+      hug:
+        description: "{{user}} got hugged by {{author}}."
+        footer:
+          one: "{{author}} has hugged {{amount}} times."
+          oneSingle: "{{author}} has hugged {{amount}} time."
+          two: "{{user}} got hugged {{amount}} times."
+          twoSingle: "{{user}} got hugged {{amount}} time."
+      blush:
+        description: "{{user}} made {{author}} blush."
+        descriptionSingle: "{{author}} is blushing."
+        footer:
+          one: "{{author}} has blushed {{amount}} times."
+          oneSingle: "{{author}} has blushed {{amount}} time."
+          two: "{{user}} made someone blush {{amount}} times."
+          twoSingle: "{{user}} made someone blush {{amount}} time."
+interactions:
+  settings:
+    agreedtoterms:
+      main:
+        title: "Hey there! It's Akira"
+        description: "Before we can hang out, I need you to agree to a few simple terms. Don’t worry, it’s quick and easy! Just click the button below, and we’ll be all set."
+        field:
+          fieldone: "Please make sure to review my {{linkTerms}} before continuing."
+          fieldtwo:
+            title: "Privacy First"
+            description: "Please make sure to review my {{linkTerms}} before continuing."
+          fieldthree:
+            title: "Breaking my rules"
+            description: "If you don’t follow my terms, I might have to stop helping you. (´•̥ω•̥`)"
+        button: "Agree and Let’s Go"
+      agree:
+        title: "Thanks for Agreeing."
+        description: "I’m so happy to have you on board! Now you can enjoy all of my features and commands. Let’s have some fun!"
+        footer: "Akira at your service!"
+global:
+  buttons:
+    button: "Click Here"
+    button2: "Click Me"
+    button3: "Link"
+    Invite: "Invite"
+    website: "Website"
+    server: "Server"
+    terms: "Terms of Service"
+error:
+  500:
+    name: "Error 500"
+    description: "test"
+testing:
+  test: "Testing Translation"
+  test2: "This is a test translation."
+  test3: "This is a test translation {{newLine}} with a tag."
