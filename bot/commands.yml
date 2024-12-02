@@ -94,6 +94,14 @@ message:
           oneSingle: "{{author}} showed hate {{amount}} time."
           two: "{{user}} got hated {{amount}} times."
           twoSingle: "{{user}} got hated {{amount}} time."
+      sad:
+        description: "{{user}} made {{author}} sad."
+        descriptionSingle: "{{author}} is sad now."
+        footer:
+          one: "{{author}} has been sad {{amount}} times."
+          oneSingle: "{{author}} has been sad {{amount}} time."
+          two: "{{user}} made someone sad {{amount}} times."
+          twoSingle: "{{user}} made someone sad {{amount}} time."
 
 interactions:
   settings:
