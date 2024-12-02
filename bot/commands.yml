@@ -86,6 +86,14 @@ message:
           oneSingle: "{{author}} has died {{amount}} time."
           two: "Someone died because of {{user}} {{amount}} times."
           twoSingle: "Someone died because of {{user}} {{amount}} time."
+      hate:
+        description: "{{author}} is hating on {{user}}."
+        descriptionSingle: "{{author}} showing hate."
+        footer:
+          one: "{{author}} showed hate {{amount}} times."
+          oneSingle: "{{author}} showed hate {{amount}} time."
+          two: "{{user}} got hated {{amount}} times."
+          twoSingle: "{{user}} got hated {{amount}} time."
 
 interactions:
   settings:
