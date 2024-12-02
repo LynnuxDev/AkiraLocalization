@@ -60,6 +60,14 @@ message:
           oneSingle: "{{author}} {{amount}} बार शर्मा चुके हूं।"
           two: "{{user}} ने किसीको {{amount}} बार शर्माया है।"
           twoSingle: "{{user}} ने किसीको {{amount}} बार शर्माया है।"
+    negative:
+      bite:
+        description: "{{user}} got bitten by {{author}}"
+        footer:
+          one: "{{author}} has bitten {{amount}} times."
+          oneSingle: "{{author}} has bitten {{amount}} time."
+          two: "{{user}} got bitten {{amount}} times."
+          twoSingle: "{{user}} got bitten {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
