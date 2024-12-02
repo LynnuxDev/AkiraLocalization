@@ -60,6 +60,14 @@ message:
           oneSingle: "{{author}} hat {{amount}} mal errötet."
           two: "{{user}} hat andere {{amount}} mal errötet."
           twoSingle: "{{user}} hat andere {{amount}} mal errötet."
+    negative:
+      bite:
+        description: "{{user}} got bitten by {{author}}"
+        footer:
+          one: "{{author}} has bitten {{amount}} times."
+          oneSingle: "{{author}} has bitten {{amount}} time."
+          two: "{{user}} got bitten {{amount}} times."
+          twoSingle: "{{user}} got bitten {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
