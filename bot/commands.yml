@@ -70,6 +70,14 @@ message:
           oneSingle: "{{author}} has bitten {{amount}} time."
           two: "{{user}} got bitten {{amount}} times."
           twoSingle: "{{user}} got bitten {{amount}} time."
+      cry:
+        description: "{{user}} made {{author}} cry."
+        descriptionSingle: "{{author}} is crying."
+        footer:
+          one: "{{author}} has cried {{amount}} times."
+          oneSingle: "{{author}} has cried {{amount}} time."
+          two: "{{user}} made someone cry {{amount}} times."
+          twoSingle: "{{user}} made someone cry {{amount}} time."
 
 interactions:
   settings:
