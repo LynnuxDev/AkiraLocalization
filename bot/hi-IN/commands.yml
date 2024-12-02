@@ -100,6 +100,14 @@ message:
           oneSingle: "{{author}} has been sad {{amount}} time."
           two: "{{user}} made someone sad {{amount}} times."
           twoSingle: "{{user}} made someone sad {{amount}} time."
+      kill:
+        description: "{{user}} got killed by {{author}}."
+        descriptionSingle: "{{author}} killed someone."
+        footer:
+          one: "{{author}} has killed {{amount}} people."
+          oneSingle: "{{author}} has killed {{amount}} people."
+          two: "{{user}} has been killed {{amount}} times."
+          twoSingle: "{{user}} has been killed {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
