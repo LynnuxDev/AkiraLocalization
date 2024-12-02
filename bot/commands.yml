@@ -78,6 +78,14 @@ message:
           oneSingle: "{{author}} has cried {{amount}} time."
           two: "{{user}} made someone cry {{amount}} times."
           twoSingle: "{{user}} made someone cry {{amount}} time."
+      die:
+        description: "{{author}} died because of {{user}}."
+        descriptionSingle: "{{author}} died."
+        footer:
+          one: "{{author}} has died {{amount}} times."
+          oneSingle: "{{author}} has died {{amount}} time."
+          two: "Someone died because of {{user}} {{amount}} times."
+          twoSingle: "Someone died because of {{user}} {{amount}} time."
 
 interactions:
   settings:
