@@ -10,9 +10,10 @@
 
 ## Main tags
 
-| Tag        | description                                | Exaple |
-|------------|--------------------------------------------|--------|
-| {{prefix}} | Gets replaced with the User/Server prefix. | a.     |
+| Tag        | description                                | Example |
+|------------|--------------------------------------------|---------|
+| {{prefix}} | Gets replaced with the User/Server prefix. | a.      |
+| {{amount}} | Placeholder for an amount like level etc.  | 13      |
 
 ## Linking pages
 
