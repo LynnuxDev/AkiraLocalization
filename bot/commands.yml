@@ -110,6 +110,14 @@ message:
           oneSingle: "{{author}} has killed {{amount}} people."
           two: "{{user}} has been killed {{amount}} times."
           twoSingle: "{{user}} has been killed {{amount}} time."
+      shoot:
+        description: "{{user}} got shot by {{author}}."
+        descriptionSingle: "{{author}} is shooting."
+        footer:
+          one: "{{author}} has shot {{amount}} people."
+          oneSingle: "{{author}} has shot {{amount}} people."
+          two: "{{user}} has been shot {{amount}} times."
+          twoSingle: "{{user}} has been shot {{amount}} time."
 
 interactions:
   settings:
