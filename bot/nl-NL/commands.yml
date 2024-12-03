@@ -108,6 +108,22 @@ message:
           oneSingle: "{{author}} has killed {{amount}} people."
           two: "{{user}} has been killed {{amount}} times."
           twoSingle: "{{user}} has been killed {{amount}} time."
+      shoot:
+        description: "{{user}} got shot by {{author}}."
+        descriptionSingle: "{{author}} is shooting."
+        footer:
+          one: "{{author}} has shot {{amount}} people."
+          oneSingle: "{{author}} has shot {{amount}} people."
+          two: "{{user}} has been shot {{amount}} times."
+          twoSingle: "{{user}} has been shot {{amount}} time."
+      stab:
+        description: "{{user}} got stabbed by {{author}}."
+        descriptionSingle: "{{author}} is stabbing."
+        footer:
+          one: "{{author}} has stabbed {{amount}} people."
+          oneSingle: "{{author}} has stabbed {{amount}} people."
+          two: "{{user}} has been stabbed {{amount}} times."
+          twoSingle: "{{user}} has been stabbed {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
