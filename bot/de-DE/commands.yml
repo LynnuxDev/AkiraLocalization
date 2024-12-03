@@ -124,6 +124,14 @@ message:
           oneSingle: "{{author}} has stabbed {{amount}} people."
           two: "{{user}} has been stabbed {{amount}} times."
           twoSingle: "{{user}} has been stabbed {{amount}} time."
+      triggered:
+        description: "{{author}} got triggered by {{user}}."
+        descriptionSingle: "{{author}} got triggered."
+        footer:
+          one: "{{author}} got triggered {{amount}} times."
+          oneSingle: "{{author}} got triggered {{amount}} time."
+          two: "{{user}} made people triggered {{amount}} times."
+          twoSingle: "{{user}} made people triggered {{amount}} time."
 interactions:
   settings:
     agreedtoterms:
