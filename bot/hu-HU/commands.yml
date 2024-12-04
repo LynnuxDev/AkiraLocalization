@@ -182,7 +182,7 @@ message:
           two: "{{user}} made people nervous {{amount}} times."
           twoSingle: "{{user}} made people nervous {{amount}} time."
       no:
-        description: "{{user}} said no to {{author}}"
+        description: "{{author}} said no to {{user}}"
         descriptionSingle: "{{author}} said no."
         footer:
           one: "{{author}} said no {{amount}} times."
