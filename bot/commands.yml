@@ -158,14 +158,6 @@ message:
           oneSingle: "{{author}} has chased {{amount}} time."
           two: "{{user}} has been chased {{amount}} times."
           twoSingle: "{{user}} has been chased {{amount}} time."
-      dab:
-        description: "{{author}} is dabbing on {{user}}."
-        descriptionSingle: "{{author}} is dabbing."
-        footer:
-          one: "{{author}} has dabbed {{amount}} times."
-          oneSingle: "{{author}} has dabbed {{amount}} time."
-          two: "{{user}} has been dabbed on {{amount}} times."
-          twoSingle: "{{user}} has been dabbed on {{amount}} time."
       facepalm:
         description: "{{user}} made {{author}} facepalm."
         descriptionSingle: "{{author}} is facepalming."
