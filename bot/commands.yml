@@ -199,21 +199,21 @@ message:
           two: "{{user}} made someone rage {{amount}} times."
           twoSingle: "{{user}} made someone rage {{amount}} time."
       run:
-        description: "{{author}} is running from {{user}}."
+        description: "{{author}} is running with {{user}}."
         descriptionSingle: "{{author}} is running."
         footer:
           one: "{{author}} ran {{amount}} times."
           oneSingle: "{{author}} ran {{amount}} time."
-          two: "{{user}} made someone run {{amount}} times."
-          twoSingle: "{{user}} made someone run {{amount}} time."
+          two: "{{user}} ran with someone {{amount}} times."
+          twoSingle: "{{user}} ran with someone {{amount}} time."
       sip:
-        description: "{{user}} made {{author}} sip."
+        description: "{{author}} is drinking with {{user}}."
         descriptionSingle: "{{author}} is taking a sip."
         footer:
           one: "{{author}} sipped {{amount}} times."
           oneSingle: "{{author}} sipped {{amount}} time."
-          two: "{{user}} made someone sip {{amount}} times."
-          twoSingle: "{{user}} made someone sip {{amount}} time."
+          two: "{{user}} drank {{amount}} times."
+          twoSingle: "{{user}} drank {{amount}} time."
       smug:
         description: "{{author}} is smugging at {{user}}."
         descriptionSingle: "{{author}} is smugging."
