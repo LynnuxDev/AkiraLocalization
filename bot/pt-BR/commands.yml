@@ -100,12 +100,20 @@ message:
           oneSingle: "{{author}} has been sad {{amount}} time."
           two: "{{user}} made someone sad {{amount}} times."
           twoSingle: "{{user}} made someone sad {{amount}} time."
+      slap:
+        description: "{{user}} got slapped by {{author}}."
+        descriptionSingle: "{{author}} is slapping someone."
+        footer:
+          one: "{{author}} has slapped {{amount}} people."
+          oneSingle: "{{author}} has slapped {{amount}} person."
+          two: "{{user}} got slapped {{amount}} times."
+          twoSingle: "{{user}} got slapped {{amount}} time."
       kill:
         description: "{{user}} got killed by {{author}}."
         descriptionSingle: "{{author}} killed someone."
         footer:
           one: "{{author}} has killed {{amount}} people."
-          oneSingle: "{{author}} has killed {{amount}} people."
+          oneSingle: "{{author}} has killed {{amount}} person."
           two: "{{user}} has been killed {{amount}} times."
           twoSingle: "{{user}} has been killed {{amount}} time."
       shoot:
@@ -113,7 +121,7 @@ message:
         descriptionSingle: "{{author}} is shooting."
         footer:
           one: "{{author}} has shot {{amount}} people."
-          oneSingle: "{{author}} has shot {{amount}} people."
+          oneSingle: "{{author}} has shot {{amount}} person."
           two: "{{user}} has been shot {{amount}} times."
           twoSingle: "{{user}} has been shot {{amount}} time."
       stab:
@@ -121,7 +129,7 @@ message:
         descriptionSingle: "{{author}} is stabbing."
         footer:
           one: "{{author}} has stabbed {{amount}} people."
-          oneSingle: "{{author}} has stabbed {{amount}} people."
+          oneSingle: "{{author}} has stabbed {{amount}} person."
           two: "{{user}} has been stabbed {{amount}} times."
           twoSingle: "{{user}} has been stabbed {{amount}} time."
       triggered:
@@ -130,8 +138,8 @@ message:
         footer:
           one: "{{author}} got triggered {{amount}} times."
           oneSingle: "{{author}} got triggered {{amount}} time."
-          two: "{{user}} made people triggered {{amount}} times."
-          twoSingle: "{{user}} made people triggered {{amount}} time."
+          two: "{{user}} triggered {{amount}} people."
+          twoSingle: "{{user}} triggered {{amount}} person."
     neutral:
       bonk:
         description: "{{author}} has bonked {{user}}."
