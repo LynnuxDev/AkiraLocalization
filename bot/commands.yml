@@ -101,6 +101,14 @@ message:
           oneSingle: "{{author}} has been sad {{amount}} time."
           two: "{{user}} made someone sad {{amount}} times."
           twoSingle: "{{user}} made someone sad {{amount}} time."
+      slap:
+        description: "{{user}} got slapped by {{author}}."
+        descriptionSingle: "{{author}} is slapping someone."
+        footer:
+          one: "{{author}} has slapped {{amount}} people."
+          oneSingle: "{{author}} has slapped {{amount}} people."
+          two: "{{user}} got slapped {{amount}} times."
+          twoSingle: "{{user}} got slapped {{amount}} time."
       kill:
         description: "{{user}} got killed by {{author}}."
         descriptionSingle: "{{author}} killed someone."
