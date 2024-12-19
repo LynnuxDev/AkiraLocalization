@@ -53,7 +53,7 @@ message:
           two: "{{user}} Werd {{amount}} keer geknuffeld."
           twoSingle: "{{user}} Werd {{amount}} keer geknuffeld."
       blush:
-        description: "{{user}} made {{author}} blush."
+        description: "{{user}} liet {{author}} blozen."
         descriptionSingle: "{{author}} is blushing."
         footer:
           one: "{{author}} has blushed {{amount}} times."
