@@ -166,6 +166,14 @@ message:
           oneSingle: "{{author}} has chased {{amount}} time."
           two: "{{user}} has been chased {{amount}} times."
           twoSingle: "{{user}} has been chased {{amount}} time."
+      cringe:
+        description: "{{user}} is making {{author}} cringe."
+        descriptionSingle: "{{author}} is cringing."
+        footer:
+          one: "{{author}} has cringed {{amount}} times."
+          oneSingle: "{{author}} has cringed {{amount}} time."
+          two: "{{user}} has made {{amount}} people cringe."
+          twoSingle: "{{user}} has made {{amount}} person cringe."
       facepalm:
         description: "{{user}} made {{author}} facepalm."
         descriptionSingle: "{{author}} is facepalming."
