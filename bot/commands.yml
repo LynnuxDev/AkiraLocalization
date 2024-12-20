@@ -37,6 +37,14 @@ message:
       thanksTranslators: "Thank you to everyone who contributed to the {{language}} translation! Here's the latest progress."
       translationInfo: "translation info"
       translationProgress: "{{amount}} finished"
+      footer: "Thank you for helping me grow!"
+      description:
+        one: "We're incredibly grateful to everyone who helps me teach me more languages!"
+        two: "Translating is done through {{crowding}}, where anyone can contribute to help my personality and commands be accessible in their native language."
+        three: "Every bit of your effort means the world to me and my developers and helps the community grow!"
+        four: "This project is supported by volunteers who generously give their time to make this possible. While they aren’t paid, their contributions have a lasting impact."
+        five: "If you'd like to join, check it out here:"
+        six: "{{amount}}/31 translations are finished."
   roleplay:
     wholesome:
       kiss:

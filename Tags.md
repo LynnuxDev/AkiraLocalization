@@ -25,3 +25,4 @@
 | {{linkKoFi}} | Returns the link of Ko-Fi | [Link](https://ko-fi.com/lynnuxdev) |
 | {{linkLynnux}} | Returns the developer's site| [Link](https://lynnux.xyz)|
 | {{linkLynnuxContact}} | Returns the developer's contact page| [Link](https://lynnux.xyz/#contact)|
+| {{crowding}} | Returns Crowding page| [link](https://crowdin.com/project/lynnuxdevAkira) |
