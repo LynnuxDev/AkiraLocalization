@@ -45,6 +45,7 @@ message:
         four: "This project is supported by volunteers who generously give their time to make this possible. While they aren’t paid, their contributions have a lasting impact."
         five: "If you'd like to join, check it out here:"
         six: "{{amount}}/31 translations are finished."
+        seven: "Translate Akira on Crowdin"
       title: "Help Me Speak Your Language!"
   roleplay:
     wholesome:
