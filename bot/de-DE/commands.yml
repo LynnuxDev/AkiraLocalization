@@ -1,0 +1,325 @@
+slash:
+  economy:
+    work:
+      description: "Arbeiten, um Geld zu verdienen."
+      success: "Du hast gearbeitet und {{amount}} Münzen verdient!"
+      cooldown: "Du musst {{time}} warten, bevor du wieder arbeiten kannst."
+message:
+  profile:
+    profile:
+      current-level: "Dein aktuelles Level ist {{level}}"
+      current-exp: "Du hast derzeit {{exp}} EP."
+  utility:
+    donate:
+      title: "Informationen zu Spenden."
+      footer: "Das Spenden ist völlig optional und in den meisten Anwendungsfällen nicht erforderlich."
+      field:
+        one:
+          title: "Wie Spenden verwendet werden:"
+          description: "Die Spenden, die mein Entwickler erhält {{italic}}(auf allen Plattformen){{/italic}}, gehen in die Wartung und Pflege von mir (Akira) und meinen verwandten Diensten. Jede zusätzliche Spende, die du machst, geht an eine Wohltätigkeitsorganisation. Für weitere Informationen darüber, wie meine Entwickler Spenden verwenden, klicke [hier]({{linkDonatePost}})."
+        two:
+          title: "Wie kannst du Spenden:"
+          description: "Du kannst spenden, indem du das [Patreon]({{linkPatreon}}) meines Entwicklers abonnierst oder eine einmalige Zahlung über [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) machst {{newLine}}-# *für Bitcoin-Spenden kontaktiere bitte direkt meinen Entwickler über ihre [Website]({{linkLynnuxContact}}) oder benutze {{prefix}}contact*"
+    about:
+      title: "Informationen über Akira"
+      description: "Akira ist ein vielseitiger, benutzerfreundlicher Discord-Bot."
+      field:
+        one:
+          title: "Build-Version"
+          description: "Beta"
+        two:
+          title: "Akira Version"
+    translate:
+      translators: "translators"
+      lastUpdate: "last updated"
+      progress: "progress"
+      thanksTranslators: "Thank you to everyone who contributed to the {{language}} translation! Here's the latest progress."
+      translationInfo: "translation info"
+      translationProgress: "{{amount}} finished"
+      footer: "Thank you for helping me grow!"
+      description:
+        one: "We're incredibly grateful to everyone who helps me teach me more languages!"
+        two: "Translating is done through {{crowding}}, where anyone can contribute to help my personality and commands be accessible in their native language."
+        three: "Every bit of your effort means the world to me and my developers and helps the community grow!"
+        four: "This project is supported by volunteers who generously give their time to make this possible. While they aren’t paid, their contributions have a lasting impact."
+        five: "If you'd like to join, check it out here:"
+        six: "{{amount}}/31 translations are finished."
+        seven: "Translate Akira on Crowdin"
+      title: "Help Me Speak Your Language!"
+  roleplay:
+    wholesome:
+      kiss:
+        description: "{{user}} wurde von {{author}} geküsst."
+        footer:
+          one: "{{author}} hat {{amount}} mal geküsst."
+          oneSingle: "{{author}} hat {{amount}} mal geküsst."
+          two: "{{user}} wurde {{amount}} mal geküsst."
+          twoSingle: "{{user}} wurde {{amount}} mal geküsst."
+      hug:
+        description: "{{user}} wurde von {{author}} umarmt."
+        footer:
+          one: "{{author}} hat {{amount}} mal umarmt."
+          oneSingle: "{{author}} hat {{amount}} mal umarmt."
+          two: "{{user}} wurde {{amount}} mal umarmt."
+          twoSingle: "{{user}} wurde {{amount}} mal umarmt."
+      blush:
+        description: "{{user}} hat {{author}} errötet."
+        descriptionSingle: "{{author}} wird rot."
+        footer:
+          one: "{{author}} hat {{amount}} mal errötet."
+          oneSingle: "{{author}} hat {{amount}} mal errötet."
+          two: "{{user}} hat andere {{amount}} mal errötet."
+          twoSingle: "{{user}} hat andere {{amount}} mal errötet."
+    negative:
+      bite:
+        description: "{{user}} got bitten by {{author}}"
+        footer:
+          one: "{{author}} has bitten {{amount}} times."
+          oneSingle: "{{author}} has bitten {{amount}} time."
+          two: "{{user}} got bitten {{amount}} times."
+          twoSingle: "{{user}} got bitten {{amount}} time."
+      cry:
+        description: "{{user}} made {{author}} cry."
+        descriptionSingle: "{{author}} is crying."
+        footer:
+          one: "{{author}} has cried {{amount}} times."
+          oneSingle: "{{author}} has cried {{amount}} time."
+          two: "{{user}} made someone cry {{amount}} times."
+          twoSingle: "{{user}} made someone cry {{amount}} time."
+      die:
+        description: "{{author}} died because of {{user}}."
+        descriptionSingle: "{{author}} died."
+        footer:
+          one: "{{author}} has died {{amount}} times."
+          oneSingle: "{{author}} has died {{amount}} time."
+          two: "Someone died because of {{user}} {{amount}} times."
+          twoSingle: "Someone died because of {{user}} {{amount}} time."
+      hate:
+        description: "{{author}} is hating on {{user}}."
+        descriptionSingle: "{{author}} showing hate."
+        footer:
+          one: "{{author}} showed hate {{amount}} times."
+          oneSingle: "{{author}} showed hate {{amount}} time."
+          two: "{{user}} got hated {{amount}} times."
+          twoSingle: "{{user}} got hated {{amount}} time."
+      sad:
+        description: "{{user}} made {{author}} sad."
+        descriptionSingle: "{{author}} is sad now."
+        footer:
+          one: "{{author}} has been sad {{amount}} times."
+          oneSingle: "{{author}} has been sad {{amount}} time."
+          two: "{{user}} made someone sad {{amount}} times."
+          twoSingle: "{{user}} made someone sad {{amount}} time."
+      slap:
+        description: "{{user}} got slapped by {{author}}."
+        descriptionSingle: "{{author}} is slapping someone."
+        footer:
+          one: "{{author}} has slapped {{amount}} people."
+          oneSingle: "{{author}} has slapped {{amount}} person."
+          two: "{{user}} got slapped {{amount}} times."
+          twoSingle: "{{user}} got slapped {{amount}} time."
+      kill:
+        description: "{{user}} got killed by {{author}}."
+        descriptionSingle: "{{author}} killed someone."
+        footer:
+          one: "{{author}} has killed {{amount}} people."
+          oneSingle: "{{author}} has killed {{amount}} person."
+          two: "{{user}} has been killed {{amount}} times."
+          twoSingle: "{{user}} has been killed {{amount}} time."
+      shoot:
+        description: "{{user}} got shot by {{author}}."
+        descriptionSingle: "{{author}} is shooting."
+        footer:
+          one: "{{author}} has shot {{amount}} people."
+          oneSingle: "{{author}} has shot {{amount}} person."
+          two: "{{user}} has been shot {{amount}} times."
+          twoSingle: "{{user}} has been shot {{amount}} time."
+      stab:
+        description: "{{user}} got stabbed by {{author}}."
+        descriptionSingle: "{{author}} is stabbing."
+        footer:
+          one: "{{author}} has stabbed {{amount}} people."
+          oneSingle: "{{author}} has stabbed {{amount}} person."
+          two: "{{user}} has been stabbed {{amount}} times."
+          twoSingle: "{{user}} has been stabbed {{amount}} time."
+      triggered:
+        description: "{{author}} got triggered by {{user}}."
+        descriptionSingle: "{{author}} got triggered."
+        footer:
+          one: "{{author}} got triggered {{amount}} times."
+          oneSingle: "{{author}} got triggered {{amount}} time."
+          two: "{{user}} triggered {{amount}} people."
+          twoSingle: "{{user}} triggered {{amount}} person."
+    neutral:
+      bonk:
+        description: "{{author}} has bonked {{user}}."
+        descriptionSingle: "{{author}} has bonked."
+        footer:
+          one: "{{author}} has bonked {{amount}} times."
+          oneSingle: "{{author}} has bonked {{amount}} time."
+          two: "{{user}} got bonked {{amount}} times."
+          twoSingle: "{{user}} got bonked {{amount}} time."
+      bored:
+        description: "{{author}} is bored of {{user}}."
+        descriptionSingle: "{{author}} is bored."
+        footer:
+          one: "{{author}} has been bored {{amount}} times."
+          oneSingle: "{{author}} has been bored {{amount}} time."
+          two: "{{user}} has been uninteresting {{amount}} times."
+          twoSingle: "{{user}} has been uninteresting {{amount}} time."
+      chase:
+        description: "{{author}} is chasing {{user}}."
+        descriptionSingle: "{{author}} is chasing someone."
+        footer:
+          one: "{{author}} has chased {{amount}} times."
+          oneSingle: "{{author}} has chased {{amount}} time."
+          two: "{{user}} has been chased {{amount}} times."
+          twoSingle: "{{user}} has been chased {{amount}} time."
+      cringe:
+        description: "{{user}} is making {{author}} cringe."
+        descriptionSingle: "{{author}} is cringing."
+        footer:
+          one: "{{author}} has cringed {{amount}} times."
+          oneSingle: "{{author}} has cringed {{amount}} time."
+          two: "{{user}} has made {{amount}} people cringe."
+          twoSingle: "{{user}} has made {{amount}} person cringe."
+      facepalm:
+        description: "{{user}} made {{author}} facepalm."
+        descriptionSingle: "{{author}} is facepalming."
+        footer:
+          one: "{{author}} has facepalmed {{amount}} times."
+          oneSingle: "{{author}} has facepalmed {{amount}} time."
+          two: "{{user}} made people facepalm {{amount}} times."
+          twoSingle: "{{user}} made people facepalm {{amount}} time."
+      nervous:
+        description: "{{user}} made {{author}} nervous"
+        descriptionSingle: "{{author}} is nervous."
+        footer:
+          one: "{{author}} has been nervous {{amount}} times."
+          oneSingle: "{{author}} has been nervous {{amount}} time."
+          two: "{{user}} made people nervous {{amount}} times."
+          twoSingle: "{{user}} made people nervous {{amount}} time."
+      no:
+        description: "{{author}} said no to {{user}}"
+        descriptionSingle: "{{author}} said no."
+        footer:
+          one: "{{author}} said no {{amount}} times."
+          oneSingle: "{{author}} said no {{amount}} time."
+          two: "{{user}} got said no to {{amount}} times."
+          twoSingle: "{{user}} got said no to {{amount}} time."
+      panic:
+        description: "{{user}} made {{author}} panic"
+        descriptionSingle: "{{author}} is panicking."
+        footer:
+          one: "{{author}} panicked {{amount}} times."
+          oneSingle: "{{author}} panicked {{amount}} time."
+          two: "{{user}} made someone panic {{amount}} times."
+          twoSingle: "{{user}} made someone panic {{amount}} time."
+      rage:
+        description: "{{user}} made {{author}} rage."
+        descriptionSingle: "{{author}} is raging."
+        footer:
+          one: "{{author}} raged {{amount}} times."
+          oneSingle: "{{author}} raged {{amount}} time."
+          two: "{{user}} made someone rage {{amount}} times."
+          twoSingle: "{{user}} made someone rage {{amount}} time."
+      run:
+        description: "{{author}} is running with {{user}}."
+        descriptionSingle: "{{author}} is running."
+        footer:
+          one: "{{author}} ran {{amount}} times."
+          oneSingle: "{{author}} ran {{amount}} time."
+          two: "{{user}} ran with someone {{amount}} times."
+          twoSingle: "{{user}} ran with someone {{amount}} time."
+      sip:
+        description: "{{author}} is drinking with {{user}}."
+        descriptionSingle: "{{author}} is taking a sip."
+        footer:
+          one: "{{author}} sipped {{amount}} times."
+          oneSingle: "{{author}} sipped {{amount}} time."
+          two: "{{user}} drank {{amount}} times."
+          twoSingle: "{{user}} drank {{amount}} time."
+      smug:
+        description: "{{author}} is smugging at {{user}}."
+        descriptionSingle: "{{author}} is smugging."
+        footer:
+          one: "{{author}} smugged {{amount}} times."
+          oneSingle: "{{author}} smugged {{amount}} time."
+          two: "{{user}} got smugged at {{amount}} times."
+          twoSingle: "{{user}} got smugged at {{amount}} time."
+      stare:
+        description: "{{author}} is staring at {{user}}."
+        descriptionSingle: "{{author}} is staring."
+        footer:
+          one: "{{author}} stared {{amount}} times."
+          oneSingle: "{{author}} stared {{amount}} time."
+          two: "{{user}} got stared at {{amount}} times."
+          twoSingle: "{{user}} got stared at {{amount}} time."
+      tease:
+        description: "{{author}} is teasing at {{user}}."
+        descriptionSingle: "{{author}} is teasing."
+        footer:
+          one: "{{author}} teased {{amount}} times."
+          oneSingle: "{{author}} teased {{amount}} time."
+          two: "{{user}} got teased {{amount}} times."
+          twoSingle: "{{user}} got teased {{amount}} time."
+      think:
+        description: "{{user}} made {{author}} think."
+        descriptionSingle: "{{author}} is thinking."
+        footer:
+          one: "{{author}} thought {{amount}} times."
+          oneSingle: "{{author}} thought {{amount}} time."
+          two: "{{user}} made people think {{amount}} times."
+          twoSingle: "{{user}} made people think {{amount}} time."
+      wink:
+        description: "{{user}} got winked at by {{author}}."
+        descriptionSingle: "{{author}} is winking."
+        footer:
+          one: "{{author}} winked {{amount}} times."
+          oneSingle: "{{author}} winked {{amount}} time."
+          two: "{{user}} got winked at {{amount}} times."
+          twoSingle: "{{user}} got winked at {{amount}} time."
+      yes:
+        description: "{{author}} said yes to {{user}}."
+        descriptionSingle: "{{author}} said yes."
+        footer:
+          one: "{{author}} said yes {{amount}} times."
+          oneSingle: "{{author}} said yes {{amount}} time."
+          two: "{{user}} got a yes {{amount}} times."
+          twoSingle: "{{user}} got a yes {{amount}} time."
+interactions:
+  settings:
+    agreedtoterms:
+      main:
+        title: "Hi, Akira hier"
+        description: "Bevor wir loslegen können, brauche ich dich, da du ein paar Bedingungen zustimmen musst! Mach dir keine Sorgen, es geht schnell und einfach! Klick einfach unten auf die Schaltfläche und dann sind wir schon fertig."
+        field:
+          fieldone: "Bitte schau erst bei {{linkTerms}} vorbei bevor du fortfährst."
+          fieldtwo:
+            title: "Datenschutz zuerst"
+            description: "Bitte schau erst bei {{linkTerms}} vorbei bevor du fortfährst."
+          fieldthree:
+            title: "Meine Regeln brechen"
+            description: "Wenn du meine Bedingungen nicht folgst, kann ich dir leider nicht weiterhelfen. (´•̥ω•̥`)"
+        button: "Zustimmen und los geht's"
+      agree:
+        title: "Danke für deine Zustimmung."
+        description: "Ich bin glücklich, dass du an Bord bist! Jetzt kannst du alle meine Funktionen und Befehle genießen und nutzen. Lass uns etwas Spaß haben!"
+        footer: "Akira zu deinen Diensten!"
+global:
+  buttons:
+    button: "Hier klicken"
+    button2: "Klick mich"
+    button3: "Link"
+    Invite: "Einladung"
+    website: "Webseite"
+    server: "Server"
+    terms: "Nutzungsbedingungen"
+error:
+  500:
+    name: "Fehler 500"
+    description: "Test"
+testing:
+  test: "Testen der Übersetzung"
+  test2: "Dies ist eine Testübersetzung."
+  test3: "Dies ist eine Testübersetzung {{newLine}} mit einem Tag."
