@@ -1,8 +1,8 @@
 slash:
   economy:
     work:
-      description: ""
-      success: "!"
+      description: "Work to earn money."
+      success: "You worked and earned {{amount}} coins!"
       cooldown: "You need to wait {{time}} before working again."
 message:
   profile:
@@ -18,8 +18,8 @@ message:
           title: "How donations are being used:"
           description: "The donations my developer gets {{italic}}(across all platforms){{/italic}} go towards maintaining/upkeep of me (Akira) and my related services, any extra they make is going towards a charity. For more info on how they use donations click [here]({{linkDonatePost}})."
         two:
-          title: ":"
-          description: ":"
+          title: "How to donate:"
+          description: "You can donate by subscribing to my developers [patreon]({{linkPatreon}}) or give a one time payment on [Ko-Fi]({{linkKoFi}}) / [BuyMeACoffee]({{linkBuyMeACoffee}}) {{newLine}}-# *for bitcoin donations please contact my developer directly using their [website]({{linkLynnuxContact}}) or us {{prefix}}contact*"
     about:
       title: "Akira information"
       description: "Akira is a multipurpose easy to use discord bot"
@@ -44,6 +44,7 @@ message:
         four: "This project is supported by volunteers who generously give their time to make this possible. While they aren’t paid, their contributions have a lasting impact."
         five: "If you'd like to join, check it out here:"
         six: "{{amount}}/31 translations are finished."
+        seven: "Translate Akira on Crowdin"
       title: "Help Me Speak Your Language!"
   roleplay:
     wholesome:
